@@ -49,14 +49,18 @@
       </div>
 
     </el-form>
+    <One/>
   </div>
 </template>
 
 <script>
 import { validUsername } from '@/utils/validate'
-
+import One from '@/views/login/one'
 export default {
   name: 'Login',
+  components:{
+    One
+  },
   data() {
     const validateUsername = (rule, value, callback) => {
       if (!validUsername(value)) {

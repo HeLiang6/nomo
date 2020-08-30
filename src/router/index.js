@@ -59,8 +59,8 @@ export const constantRoutes = [
     path: '/List',
     component: Layout,
     children: [{
-      path: 'Home',
-      name: 'Home',
+      path: 'List',
+      name: 'List',
       component: () => import('@/views/List/index'),
       meta: { title: 'List', icon: 'List' }
     }]

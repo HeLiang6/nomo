@@ -91,4 +91,10 @@ export default {
   .mobile .fixed-header {
     width: 100%;
   }
+  #app .hideSidebar .main-container{
+    margin: 0;
+  }
+  #app .hideSidebar .sidebar-container{
+    width: 0 !important
+  }
 </style>

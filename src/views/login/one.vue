@@ -1,7 +1,7 @@
 <template>
   <div>
     <el-button v-text="$t('sceneHome.start')"></el-button>
-	<el-button>{{$t('content.name')}}</el-button>
+	<el-button>{{$t('sceneHome.start')}}</el-button>
    <el-dropdown trigger="click" class="international" @command="handleSetLanguage">
     <div>
        <!--<svg-icon class-name="international-icon" icon-class="language" />-->
